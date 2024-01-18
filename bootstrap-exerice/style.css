@@ -1,0 +1,219 @@
+Exercise1.css
+.date{
+    color: rgb(201, 115, 93);
+}
+#name{
+    color: rgb(67, 152, 190);
+}
+#nav{
+    display: flex;
+    justify-content: center;
+}
+#container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+i{
+    padding-right: 5px;
+}
+#side_nav{
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    background-color: rgb(67, 152, 190);
+}
+#side_nav .navbar-nav .nav-item .nav-link{
+    font-weight:800;
+    font-size: 20px;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+}
+.resume-section-content{
+    text-align: justify;
+}
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.9rem;
+    width: 3.9rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 50%;
+    padding-left: 5px;
+    margin: 5px;
+    font-size: 35px;
+}
+#side_nav .navbar-brand .img-profile{
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgb(155, 116, 116);
+}
+#side_nav .navbar-nav .nav-item .nav-link a[title]{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.subheading {
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+h2,h3{
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+h2{
+    font-weight: 700;
+    color: rgb(67, 152, 190);
+}
+
+.image_profie{
+    border-radius: 90%;
+}
+/* .line-1{
+    background-color: rgba(235, 212, 152, 0.725);
+    height: 30px;
+    width: 100%;
+}
+.line-2{
+    background-color: rgb(205, 247, 233);
+    height: 50%;
+} */
+
+
+@media (min-width:768px){
+    .stripe-1{
+        width: 150px;
+        height: 160px;
+        background-color: rgba(239, 207, 124, 0.725);
+        transform: rotate(45deg);
+        position:relative;
+        top: -90px;
+        border-radius: 10px;
+    }
+    .stripe-2{
+        width: 80%;
+        height: 80%;
+        background-color: rgb(178, 247, 224);
+    }
+    .stripe-3{
+        background-color: white;
+        width: 80%;
+        height: 80%;
+    }
+    #container{
+        width: 75%;
+        float: right;
+    }
+    #side_nav{
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width:25%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    #side_nav .navbar-brand{
+        margin-top: 50px !important;
+        padding: 0.5rem;
+    }
+    #side_nav .navbar-brand .img-profile{
+        max-width: 10rem;
+        max-height: 10rem;
+        border: 0.5rem solid rgb(155, 116, 116);
+    }
+    #side_nav .navbar-collapse{
+        width: 100%;
+        flex-grow: 0;
+        margin-bottom: auto;
+    }
+    #side_nav .navbar-collapse .navbar-nav{
+        flex-direction: column;
+        width: 100%;
+    }
+    #side_nav .navbar-collapse .navbar-nav .nav-item{
+        display: block;
+    }
+    #side_nav .navbar-collapse .navbar-nav .nav-item{
+        display: block;
+    }
+    #side_nav .navbar-nav .nav-item .nav-link{
+        font-weight:800;
+        letter-spacing: 0.05rem;
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width:1200px){
+    #side_nav .navbar-brand .img-profile{
+        max-width: 13rem;
+        max-height: 13rem;
+        border: 0.5rem solid rgb(198, 148, 146);
+    }
+    #container{
+        width: 80%;
+    }
+    #side_nav{
+        width: 20%;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .title{
+        display: none;
+    }
+    .sidenav-icons{
+        font-size: 40px;
+    }
+}
+
+@media (min-width:576px) and (max-width:768px){
+    #container{
+        margin-top: 20px !important;
+    }
+    h1{
+        text-align: center !important;
+        margin-bottom: 15px !important;
+    }
+    .date{
+        padding-left: 0 !important;
+    }
+}
+
+
+@media (max-width:576px){
+    #container{
+        margin-top: 25px !important;
+    }
+    #side_nav .navbar-collapse .navbar-nav{
+        display: flex;
+        flex-direction: row;
+    }
+    #side_nav .navbar-collapse .navbar-nav .nav-item{
+        margin-right: 30px;
+    }
+    #side_nav .navbar-collapse .navbar-nav .nav-item .nav-link{
+        display: flex;
+        flex-direction: row;
+    }
+    #side_nav .navbar-collapse .navbar-nav .nav-item .nav-link .title{
+        padding-left: 5px;
+    }
+    #side_nav .navbar-collapse{
+        overflow-y: scroll;
+    }
+    .date{
+        padding-left: 0 !important;
+    }
+    h1{
+        text-align: center !important;
+        margin-bottom: 15px !important;
+    }
+    .resume-section{
+        margin-bottom: 15px !important;
+    }
+}
